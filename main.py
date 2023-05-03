@@ -26,3 +26,6 @@ food.shape("circle")
 food.color("yellow")
 food.penup()
 food.goto(0,100)
+
+bodySegments = []
+
