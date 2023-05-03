@@ -18,3 +18,11 @@ head.color("white")
 head.penup()
 head.goto(0,0)
 head.direction="stop"
+
+# Snake Food
+food = turtle.Turtle()
+food.speed(0)
+food.shape("circle")
+food.color("yellow")
+food.penup()
+food.goto(0,100)
