@@ -6,4 +6,6 @@ delay = 0.1
 
 window = turtle.Screen()
 window.title("Snake")
-window.bgcolor()
+window.bgcolor("green")
+window.setup(width=800, height=600)
+window.tracer(0)
