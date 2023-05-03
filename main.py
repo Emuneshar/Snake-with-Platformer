@@ -58,4 +58,11 @@ def move():
   if head.direction == "left":
     x = head.xcor()
     head.sety(x-20)
-  
+
+# Keyboard bindings
+
+window.listen()
+window.onkeypress(goUp, "Up")
+window.onkeypress(goDown, "Down")
+window.onkeypress(goRight, "Right")
+window.onkeypress(goLeft, "Left")
