@@ -29,3 +29,16 @@ food.goto(0,100)
 
 bodySegments = []
 
+# Functions
+def goUp():
+  head.direction = "up"
+
+def goDown():
+  head.direction = "down"
+
+def goRight():
+  head.direction = "right"
+
+def goLeft():
+  head.direction = "left"
+  
