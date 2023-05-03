@@ -66,3 +66,5 @@ window.onkeypress(goUp, "Up")
 window.onkeypress(goDown, "Down")
 window.onkeypress(goRight, "Right")
 window.onkeypress(goLeft, "Left")
+
+
